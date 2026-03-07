@@ -1,14 +1,14 @@
 # Programação Orientada a Objetos (POO)
 
-## 📚 Descrição
+## Descrição
 
 Repositório contendo códigos e exemplos da disciplina de **Programação Orientada a Objetos** da Universidade de Joinville (UNIVILLE).
 
-## 💻 Linguagem
+## Linguagem
 
 - **Java** (100%)
 
-## 📖 Conteúdo
+## Conteúdo
 
 Este repositório inclui:
 - Exemplos de classes e objetos
@@ -18,25 +18,7 @@ Este repositório inclui:
 - Princípios SOLID
 - Padrões de design
 
-## 🚀 Como Usar
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/andreyyyon/POO.git
-```
-
-2. Navegue até o diretório do projeto:
-```bash
-cd POO
-```
-
-3. Compile e execute os arquivos Java conforme necessário
-
-## 📝 Notas
-
-Este é um repositório educacional para fins de aprendizado de POO.
-
-## 👤 Autor
+## Autor
 
 [andreyyyon](https://github.com/andreyyyon)
 
