@@ -8,8 +8,8 @@ public class Retangulo {
     }
 
     public Retangulo(double largura, double altura) {
-        this.largura = largura;
-        this.altura = altura;
+        setLargura(largura);
+        setAltura(altura);
     }
 
     public double getLargura() {
@@ -17,6 +17,7 @@ public class Retangulo {
     }
 
     public void setLargura(double largura) {
+        if(largura < 0) return;
         this.largura = largura;
     }
 
@@ -25,6 +26,11 @@ public class Retangulo {
     }
 
     public void setAltura(double altura) {
+        if(altura < 0) return;
         this.altura = altura;
+    }
+
+    public boolean isSquare() {
+        return altura == largura;
     }
 }
