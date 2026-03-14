@@ -33,4 +33,12 @@ public class Retangulo {
     public boolean isSquare() {
         return altura == largura;
     }
+
+    public double getArea(){
+        return this.altura * this.largura;
+    }
+
+    public double getPerimeto() {
+        return this.altura + this.largura;
+    }
 }
