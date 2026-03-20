@@ -56,7 +56,7 @@ public class Elevador {
         fecharPorta();
 
         setAndarAtual(getAndarAtual() - 1);
-        System.out.println("Elevador subiu para o andar " + getAndarAtual());
+        System.out.println("Elevador desceu para o andar " + getAndarAtual());
 
         abrirPorta();
     }
